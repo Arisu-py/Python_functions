@@ -3,7 +3,7 @@ import re
 
 def find_abbreviation(s: str) -> list:
     abbreviations = re.findall(r'\b[A-ZА-Я]{2,6}\b', user_string)
-    
+
     return abbreviations
 
 
